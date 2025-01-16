@@ -68,6 +68,7 @@ The dataset `Hr-Data.xlsx` contains the following columns:
    - Created two measures: `Avg. Leave Balance` and `LB over 20 days`.
    - Visualized leave balance by job title using a stacked bar chart.
    - Integrated the gender breakdown pie chart for leave balance analysis.
+   - Added the `LB over 20 days` measure in the tooltips of the bar chart to provide additional insights on leave balances exceeding 20 days.
 
 ### 10. **HR Dashboard**
    - Integrated all the visualizations into an interactive HR Dashboard to provide an overview of key HR metrics.
