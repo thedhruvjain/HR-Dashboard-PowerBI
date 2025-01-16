@@ -23,17 +23,23 @@ The dataset `Hr-Data.xlsx` contains the following columns:
    - Created a measure `Total Headcount = COUNTROWS(staff)` and visualized it using a bar chart.
    - X-axis: Job Title
    - Y-axis: Total Headcount
+   
+   ![Q1](Snippets/Q1.jpg)
 
 ### 2. **Gender Breakdown of the Staff**
    - Created a pie chart to visualize the gender distribution.
    - Values: Total Headcount
    - Legend: Gender
    - Added slicer by Job Title.
+   
+   ![Q2](Snippets/Q2.jpg)
 
 ### 3. **Age Distribution of the Staff**
    - Age was classified into groups of 5 years using the "Bin Size" feature.
    - Visualized the age spread using a stacked column chart with gender as the legend.
    - Used small multiples to display age groups by gender.
+   
+   ![Q3](Snippets/Q3.jpg)
 
 ### 4. **Salary by Job Title**
    - Created three new measures: `Avg. Salary`, `Max. Salary`, `Min. Salary`.
@@ -43,35 +49,49 @@ The dataset `Hr-Data.xlsx` contains the following columns:
      - Total Headcount
      - Min. Salary
      - Max. Salary
+   
+   ![Q4](Snippets/Q4.jpg)
 
 ### 5. **Top Earners by Job Title**
    - Used the "Headcount by Job Title" chart from the first question.
    - Created a table showing Name, EmpID, Gender, and Salary.
    - Applied a "Top N" filter to show the top 3 earners.
+   
+   ![Q5](Snippets/Q5.jpg)
 
 ### 6. **Education Qualification vs Salary**
    - Transformed data by creating a distinct table for Education Qualification and assigning each qualification an ID.
    - Created a scatter plot with Salary on the X-axis and Qualification ID on the Y-axis, using Education Qualification as the legend to color the points.
    - Adjusted Y-axis scale for better visibility.
+   
+   ![Q6](Snippets/Q6.jpg)
 
 ### 7. **Staff Growth Trend Over Time**
    - Created a new measure `Cumulative Headcount`.
    - Visualized the growth trend over time using a line chart, with Date of Join on the X-axis and Cumulative Headcount on the Y-axis.
+   
+   ![Q7](Snippets/Q7.jpg)
 
 ### 8. **Employee Filter by Starting Letter**
    - Added a new column to extract the first letter of the employee's name.
    - Created a table showing EmpID, Name, Job Title, and Salary (with data bars).
    - Added a slicer to filter by the first letter of the name.
    - Displayed Total Headcount as a card.
+   
+   ![Q8](Snippets/Q8.jpg)
 
 ### 9. **Leave Balance Analysis**
    - Created two measures: `Avg. Leave Balance` and `LB over 20 days`.
    - Visualized leave balance by job title using a stacked bar chart.
    - Integrated the gender breakdown pie chart for leave balance analysis.
    - Added the `LB over 20 days` measure in the tooltips of the bar chart to provide additional insights on leave balances exceeding 20 days.
+   
+   ![Q9](Snippets/Q9.jpg)
 
 ### 10. **HR Dashboard**
    - Integrated all the visualizations into an interactive HR Dashboard to provide an overview of key HR metrics.
+   
+   ![Q10](Snippets/Q10.jpg)
 
 ---
 
